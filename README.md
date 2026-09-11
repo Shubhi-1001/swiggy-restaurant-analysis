@@ -3,7 +3,7 @@ This project uses the [Swiggy Restaurants Dataset](https://www.kaggle.com/datase
 Download it and place it at `data/raw/swiggy.csv` before running `scripts/01_clean.R`.
 (Files were too huge to include)
 
-Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 1) The raw dataset (148,541 rows) required several corrections before analysis:
 
