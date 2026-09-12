@@ -3,7 +3,7 @@ This project uses the [Swiggy Restaurants Dataset](https://www.kaggle.com/datase
 Download it and place it at `data/raw/swiggy.csv` before running `scripts/01_clean.R`.
 (Files were too huge to include)
 
-Data Cleaning & Preparation
+## Data Cleaning & Preparation
 
 1) The raw dataset (148,541 rows) required several corrections before analysis:
 
@@ -31,6 +31,7 @@ Cost is right-skewed, with the bulk of restaurants priced between ₹100–₹35
 
 **Cost vs. Rating**
 A correlation of 0.136 between cost and rating indicates price is not a meaningful predictor of restaurant quality on this platform — higher-priced restaurants are not reliably better-rated than lower-priced ones.
+
 
 
 ## Key Findings
