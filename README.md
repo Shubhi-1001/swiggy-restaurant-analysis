@@ -31,3 +31,27 @@ Cost is right-skewed, with the bulk of restaurants priced between ₹100–₹35
 
 **Cost vs. Rating**
 A correlation of 0.136 between cost and rating indicates price is not a meaningful predictor of restaurant quality on this platform — higher-priced restaurants are not reliably better-rated than lower-priced ones.
+
+
+## Key Findings
+
+1. **Price does not predict quality on this platform.** The correlation between cost and rating is just 0.136 — restaurants are not reliably better-rated because they charge more, undermining any expansion strategy based on a "premium = better" assumption.
+
+2. **Ratings are remarkably consistent across major cities (3.79–4.08), while cost varies more** (₹247–₹358 average) — meaning city-level differences are driven more by pricing dynamics than by service quality.
+
+3. **The two strongest expansion opportunities identified (n≥20 restaurants, ranked by opportunity score) span both established and emerging markets:**
+   - **Metro markets:** Vizag stands out with two independent opportunities — Tandoor (score 55.5) and American cuisine (score 50.5) — suggesting broad, cuisine-agnostic room to grow rather than a one-off gap. Mumbai and Hyderabad both show strong, under-served demand for "Home Food"-style cuisine.
+   - **Emerging markets:** Thiruvananthapuram shows the single strongest signal in the dataset (Arabian cuisine, score 54.4), and appears three times in the top 10 across different cuisines (Arabian, Indian, North Indian) — indicating the city as a whole may be under-penetrated relative to demand, not just one cuisine gap.
+
+4. **Cuisine dominance is heavily skewed nationally** — Chinese (36,464 listings) and North Indian (32,537) account for a disproportionate share of all restaurants, while genuine local/regional cuisines (Kerala, Andhra, Arabian) show up as high-opportunity in specific cities precisely because they're under-represented relative to demand.
+
+## Recommendations
+
+1. **Prioritize Vizag for near-term metro expansion** — it shows strong, consistent opportunity signals across two distinct cuisines, suggesting the city broadly, not just one niche, is under-served.
+2. **Treat Thiruvananthapuram as a strategic emerging-market bet** — its appearance across three separate cuisine categories in the top 10 suggests city-wide headroom rather than a narrow opportunity.
+3. **Do not use price positioning as a differentiation strategy** — with a cost-rating correlation of just 0.136, competing on being "premium" is unlikely to translate into better ratings or customer perception on this platform.
+4. **Treat single-cuisine, single-city findings (e.g., Indore/Mughlai, Surat/Mughlai) as secondary opportunities** worth monitoring, but not the primary basis for a first-wave expansion decision, since they represent isolated signals rather than city-wide patterns.
+
+## Methodology Note
+
+An initial version of this analysis used a minimum sample size of 5 restaurants per city-cuisine combination, which produced misleading results — small samples allowed a single high-demand restaurant to dominate the average for an entire cuisine category (e.g., one popular restaurant skewing an average across only 4-5 total listings). The threshold was raised to a minimum of 20 restaurants per combination, and results were additionally split between established metro markets (≥1,000 total restaurants) and emerging markets, since these represent meaningfully different expansion decisions with different risk profiles.
