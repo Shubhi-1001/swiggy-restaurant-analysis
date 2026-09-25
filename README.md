@@ -3,6 +3,10 @@ This project uses the [Swiggy Restaurants Dataset](https://www.kaggle.com/datase
 Download it and place it at `data/raw/swiggy.csv` before running `scripts/01_clean.R`.
 (Files were too huge to include)
 
+## Note on AI-Assisted Workflow
+
+This project was completed independently, with Claude (Anthropic) used as an assistive tool throughout — for debugging R code, catching a methodological flaw in an early version of the opportunity-scoring metric, verifying data source claims rather than assuming them, and structuring this report. All analytical decisions, interpretation of results, and business recommendations reflect my own judgment; AI assistance accelerated implementation and served as a debugging/QA partner rather than a substitute for the analysis itself.
+
 ## Data Cleaning & Preparation
 
 1) The raw dataset (148,541 rows) required several corrections before analysis:
